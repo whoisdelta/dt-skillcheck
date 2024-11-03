@@ -21,8 +21,11 @@ end
 
 exports("setUpSkillCheck", startSkillCheck)
 
+-- This is how to use it. [ speed should be between 1 and 10 ]
+
 -- RegisterCommand("testskillcheck", function()
---     exports['dt-skillcheck']:setUpSkillCheck({ speed = 5 }):next(function(success)
---         print(success)
---     end)
+    -- exports['dt-skillcheck']:setUpSkillCheck({ speed = 5 }):next(function(success)
+    --     print(success)
+    -- end)
 -- end)
+
