@@ -1,1 +1,1 @@
-## DT-SKILLCHECK | discord.gg/mdstudios
+## dt-skillcheck | discord.gg/mdstudios
