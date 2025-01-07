@@ -68,14 +68,6 @@ const skillCheck = new Vue({
             const infoText = document.querySelector('.skillcheck-info p');
             const infoSpan = document.querySelector('.skillcheck-info span');
 
-            if (isSuccess) {
-                this.infoText = 'Nice one!';
-                this.infoSpanHtml = 'You nailed it!<br>Great job!';
-            } else {
-                this.infoText = 'Oops!';
-                this.infoSpanHtml = 'Not quite right...<br>Give it another shot!';
-            }
-
             infoText.textContent = this.infoText;
             infoSpan.innerHTML = this.infoSpanHtml;
 
